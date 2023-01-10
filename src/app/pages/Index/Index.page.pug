@@ -1,0 +1,195 @@
+extends @layouts/Default/Default.layout.pug
+
+block append scripts
+	script(src=require('./Index.page.js'), defer)
+
+block body
+	section.section
+		.grid
+			.grid__column
+				.section__bg
+					img(src=require('@assets/img/bg.jpg'), alt="alt")
+
+			.grid__column
+				.section__content
+					.section__info
+						h3 Everyday items, we have something to suit every occasion.
+						p At suspendisse augue lectus arcu, accumsan ut sit posuere vitae sit tincidunt semper eu proin leo gravida cursus.
+						a.c-button(href="/") Shop all everyday items
+				
+					.slider
+						button.slider__prev-button &lt;
+						button.slider__next-button.slider__next-button--active &gt;
+
+						.slider__wrapper
+							.slider__item
+								.card
+									.card__media
+										a(href="/")
+											img(src=require('@assets/img/bg-1.png'), alt="alt")
+									.card__content
+										h4
+											a(href="/") 365 Signature Hoodie
+										.card__meta
+											strong €33.95
+											ul
+												li.blue
+													label
+														input(type="radio", name="colors-1")
+														span
+												li.red
+													label
+														input(type="radio", name="colors-1")
+														span
+												li.purple
+													label
+														input(type="radio", name="colors-1")
+														span
+												li.green
+													label
+														input(type="radio", name="colors-1")
+														span
+
+
+							.slider__item
+								.card
+									.card__media
+										a(href="/")
+											img(src=require('@assets/img/bg-1-1.png'), alt="alt")
+									.card__content
+										h4
+											a(href="/") Organic Skinny High Waist Jeans
+										.card__meta
+											strong €33.95
+											ul
+												li.blue
+													label
+														input(type="radio", name="colors-2")
+														span
+												li.red
+													label
+														input(type="radio", name="colors-2")
+														span
+												li.purple
+													label
+														input(type="radio", name="colors-2")
+														span
+												li.green
+													label
+														input(type="radio", name="colors-2")
+														span
+
+
+							.slider__item
+								.card
+									.card__media
+										a(href="/")
+											img(src=require('@assets/img/bg-1-2.png'), alt="alt")
+									.card__content
+										h4
+											a(href="/") Organic Skinny High Waist Jeans
+										.card__meta
+											strong €33.95
+											ul
+												li.blue
+													label
+														input(type="radio", name="colors-3")
+														span
+												li.red
+													label
+														input(type="radio", name="colors-3")
+														span
+												li.purple
+													label
+														input(type="radio", name="colors-3")
+														span
+												li.green
+													label
+														input(type="radio", name="colors-3")
+														span
+
+							.slider__item
+								.card
+									.card__media
+										a(href="/")
+											img(src=require('@assets/img/bg-1.png'), alt="alt")
+									.card__content
+										h4
+											a(href="/") 365 Signature Hoodie
+										.card__meta
+											strong €33.95
+											ul
+												li.blue
+													label
+														input(type="radio", name="colors-1")
+														span
+												li.red
+													label
+														input(type="radio", name="colors-1")
+														span
+												li.purple
+													label
+														input(type="radio", name="colors-1")
+														span
+												li.green
+													label
+														input(type="radio", name="colors-1")
+														span
+
+
+							.slider__item
+								.card
+									.card__media
+										a(href="/")
+											img(src=require('@assets/img/bg-1-1.png'), alt="alt")
+									.card__content
+										h4
+											a(href="/") Organic Skinny High Waist Jeans
+										.card__meta
+											strong €33.95
+											ul
+												li.blue
+													label
+														input(type="radio", name="colors-2")
+														span
+												li.red
+													label
+														input(type="radio", name="colors-2")
+														span
+												li.purple
+													label
+														input(type="radio", name="colors-2")
+														span
+												li.green
+													label
+														input(type="radio", name="colors-2")
+														span
+
+
+							.slider__item
+								.card
+									.card__media
+										a(href="/")
+											img(src=require('@assets/img/bg-1-2.png'), alt="alt")
+									.card__content
+										h4
+											a(href="/") Organic Skinny High Waist Jeans
+										.card__meta
+											strong €33.95
+											ul
+												li.blue
+													label
+														input(type="radio", name="colors-3")
+														span
+												li.red
+													label
+														input(type="radio", name="colors-3")
+														span
+												li.purple
+													label
+														input(type="radio", name="colors-3")
+														span
+												li.green
+													label
+														input(type="radio", name="colors-3")
+														span
