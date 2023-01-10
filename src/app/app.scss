@@ -252,6 +252,10 @@ img {
 		pointer-events: none;
 		transition: all 400ms;
 
+		@include media('<=lg') {
+			display: none;
+		}
+
 		&--active {
 			opacity: 1;
 			visibility: visible;
@@ -279,6 +283,10 @@ img {
 		visibility: hidden;
 		pointer-events: none;
 		transition: all 400ms;
+
+		@include media('<=lg') {
+			display: none;
+		}
 
 		&--active {
 			opacity: 1;
