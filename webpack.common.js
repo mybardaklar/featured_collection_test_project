@@ -29,6 +29,7 @@ module.exports = {
 	resolve: {
 		extensions: ['.ts', '.js'],
 		alias: {
+			'@nodeModules': 'node_modules',
 			'@app': path.join(__dirname, 'src/app'),
 			'@layouts': path.join(__dirname, 'src/app/layouts'),
 			'@widgets': path.join(__dirname, 'src/app/widgets'),
